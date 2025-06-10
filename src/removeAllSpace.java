@@ -4,11 +4,11 @@ public class removeAllSpace {
         return str.replaceAll(" ", "");
     }
     public static void main(String[] args) {
-        Scanner sc = new  Scanner(System.in);
-        System.out.print("enter the string: ");
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the string: ");
         String str = sc.nextLine();
 
         String result = removeAllSpace(str);
-        System.out.print("After remove: "+result);
+        System.out.println("Enter the line: "+result);
     }
 }
